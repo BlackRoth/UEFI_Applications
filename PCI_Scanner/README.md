@@ -8,8 +8,10 @@ It isolates the lower 16-bits to extract vendorid and upper 16-bits to isolate t
 
 Active slots are filtered out by filtering the non responsive 0xFFFF blank addresses to map the real world silicon layouts such as:
 
-Intel 440FX HOST Bridge 0x1237 at Vendor 0x8086
-Intel 82371SB PCI-to-ISA Bridge 0x7000 at Vendor 0x8086
-Qemu standard VGA adpater 0x1111 at Vendor 0x1234
+Intel 440FX HOST Bridge 0x1237 at Vendor 0x8086<br>
+
+Intel 82371SB PCI-to-ISA Bridge 0x7000 at Vendor 0x8086<br>
+
+Qemu standard VGA adpater 0x1111 at Vendor 0x1234<br>
 
 
